@@ -1,0 +1,112 @@
+*{
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: aliceblue;
+}
+.logo{
+    font-weight: 150;
+    margin:auto 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    width: 30%;
+    color:white;
+}
+.name{
+    font-size: xxx-large;
+}
+.personal{
+    font-size: large;
+    margin: auto 0;
+}
+.nav{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+}
+.nav ul{
+    list-style: none;
+    padding-right: 75px;
+}
+.nav>ul>li{
+    display: inline-block;
+    font-size: large;
+    border: 2px;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+    margin:0 20px;
+    border-radius: 20px;
+    transition: all 1.25s ease-in-out;
+    color: aliceblue;
+
+}
+.nav>ul>li:hover{
+    border-radius: 5px;
+    background-color: aqua;
+    color:black;
+    cursor: pointer;
+}
+.container{
+    display:inline-flex;
+    width: 100%;
+    background-color: midnightblue;
+    border-radius: 7.5px;
+}
+.box-container{
+    margin-top: 20px;
+    height: 77.5vh;
+    min-width: 100%;
+    display: flex;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+.box-container>section{
+    min-width: 100%;
+    height: 100%;   
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+}
+p{
+    text-align: center;
+    font-size: large;
+    width: 70%;
+    margin: 0 auto;
+}
+#contactForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button{
+    width: 7.5%;
+}
+input{
+    width:20%;
+    text-align: center;
+}
+textarea{
+    width: 40%;
+    resize: none;
+}
+input, textarea, label, button{
+    margin: 7.5px auto;
+    border-radius: 0.1px;
+}
+label{
+    font-weight: 200;
+    font-size: larger;
+}
+button:hover{
+    cursor: pointer;
+}
